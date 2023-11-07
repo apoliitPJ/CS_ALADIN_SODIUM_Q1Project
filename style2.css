@@ -1,0 +1,90 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Background color */
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set the body to fill the viewport height */
+}
+.title-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #8578ff;
+    font-size: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aa2f40; /* Header background color */
+    padding: 20px 20px; /* Increased padding for more space */
+    height: 10vh; /* Set the height to 10vh */
+}
+
+.header-left, .header-right, .header-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-bottom {
+    background-color: #99b6f7; /* Bottom header background color */
+    padding: 20px 0; /* Increased padding for more space */
+    text-align: center;
+    color: white; /* Text color */
+    position: fixed; /* Set position to fixed */
+    bottom: 0; /* Touch the bottom of the viewport */
+    width: 100%; /* Make it full width */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    height: 10vh; /* Set the height to 10vh */
+}
+
+.header h1 {
+    font-size: 36px; /* H1 text size */
+    margin: 20px 0; /* Increased margin for more space */
+    text-align: center;
+    color: #9380ff; /* Text color */
+}
+
+/* Style the anchor elements to look like regular text */
+a.header-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px; /* Adjust the font size */
+}
+
+a.bottom-link {
+    text-decoration: none;
+    color: white; /* Text color */
+    font-size: 16px; /* Adjust the font size */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+  
+}
+.Maincover-background 
+    {
+        background-image: url('images/bg5.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+   
+
+
